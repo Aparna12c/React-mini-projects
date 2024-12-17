@@ -1,0 +1,75 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+  flex-direction: column;
+  width: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  color: #7f8c8d;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.myImage {
+  height: 300px;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+/* Add a container to make the content look better centered */
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+}
+
+.container h1 {
+  font-size: 40px;
+  color: #34495e;
+}
+
+.container p {
+  font-size: 20px;
+  color: #95a5a6;
+  line-height: 1.6;
+}
+
+.container img {
+  height: 350px;
+  width: 550px;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+}
+
